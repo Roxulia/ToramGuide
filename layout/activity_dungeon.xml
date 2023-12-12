@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".Dungeon">
+
+    <TextView
+        android:id="@+id/dungeonTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="10dp"
+        android:text="Dungeon"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dungeonTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtDG1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Dungeon ဆိုတာ Mini Game ပုံစံ ဖြစ်ပြီး  Level အလိုက် အဆင့်တွေ ခွဲ ထားပြီး အချိန်နဲ့ ဆော့ရတာပါ။  \nGame ပုံစံက Crystal လေးတွေကို Solo/Partyနဲ့ Monster တွေ ထံ မှ ကာကွယ်ရမှာ ဖြစ်ပါတယ်။ \nmercenaries တေနဲ့ pet တေခေါ်လို့မရပါဘူး"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgDG1"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dungeon3" />
+
+            <TextView
+                android:id="@+id/txtDG2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Exp နဲ့ Tickets တွေကို ပါ ကိုယ်ချတဲ့ lvl(difficulty) အပေါ်မူတည်ပီး  Rewardအဖြစ်ရနိုင်ပြီး အမြန်ဆုံး နိုင်အောင် ရှင်းနိုင်တယ့်သူတွေရဲ့ နာမည်ကို  1st 2nd 3rd ဆိုပြီး အပတ်စဉ် ဖော်ပြထားတယ့် Title System ပါ ပါသေးတယ်"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgDG2"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dungeon2" />
+
+            <TextView
+                android:id="@+id/txtDG3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Dungeonတွေကို Main Quest Chapter 1 ပြီးတာ နဲ့ စဆော့လို့ရပါပြီ။ Dungeon ကိုဆော့မယ်ဆိုရင်တော့ sofya city က gate နားက guard တကောင်စီမာ စကားပြောပီး challenge dungeonကိုနိပ်ရင်ရပါပီ"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgDG3"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/dungeon1" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

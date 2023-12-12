@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".beginnerGuide">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="100dp"
+        android:background="#86000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnCbSys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Consignment Board"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnWorldSys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Change World or ch"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnEzmq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Easily do MQ"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnmercenaries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Mercenaries"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnorb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Orb shop"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/btnMap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Map Guide"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnLvl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Lvling Guide"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnDungeon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Dungeon"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnGem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#002196F3"
+                android:text="Holy Gems"
+                android:textColor="#FF37FF00"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_test"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

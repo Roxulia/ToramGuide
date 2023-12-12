@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lvling">
+
+    <TextView
+        android:id="@+id/lvlTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:text="Lvling Guide"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lvlTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtLvl1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="ဒါကတော့ ရှင်းပါတယ်Character Levelတက်အောင် လုပ်တာ ပါ။ Lvlingတယ့် နေရာမှာ မြန်မြန်နဲ့  Exp များများ ရအောင် ဘယ်လိုလုပ်မလဲ ဆိုတာ ရှင်းလင်း မှာပါ။  \n\nMonster /Bossတွေကို သတ်ရင် Expရတာ အားလုံး သိကြမှာပါ ထို Exp ရမှ Levelတက်မှာပါ  Bossတွေ ရဲ့ Expဟာ Monsterတွေက ရတာထက် ပို များပါတယ်။ ဒါသိရုံနဲ့ Lvတက်အောင်တွေ့သမျှကောင် ပတ်ခုတ် နေလို့ မရပါဘူး  \n\n\nToram မှာ Lvl Gapအလိုက် Expရတာမတူပါဘူး Difference Lv(ကိုယ့်ရဲ့ Cha Lvနဲ့ သတ်မယ့်Mob/ Bossရဲ့ Lv) အလိုက် Expပို ရသလို လျော့ ရတာလဲ ရှိပါတယ်။ပုံမှန် အားဖြင့် Lvကွာခြားမှု 9 (ကိုယ်က နည်း သို့မဟုတ် ပိုများ) ရင် Expပို တက် စေပါတယ် ဒါပေမယ့် Lvကွာခြားမှု 4အတွင်းကိုပဲ သတ်ဖို့ အကြံပေးပါတယ်။ \n\n MAIN QUESTကို အရင် ပြီးအောင်လုပ်ဖို့  Recommendပေးပါတယ် ဘာလို့လဲ ဆိုတော့  MainQuestလုပ် တာနဲ့ လွယ်လွယ်ကူကူ Lvl135+ ကို ရောက်နိုင်ပါတယ်  \n\n\n\n"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnchart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AE00BCD4"
+                android:text="Lvling Chart"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

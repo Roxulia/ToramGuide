@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".easyMq">
+
+    <TextView
+        android:id="@+id/mqtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="10dp"
+        android:text="How to easily do Main Quest"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mqtitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtMq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="main quest တေဟာ lvlတက်ဖို့အမြန်ဆုံး ဟာပါ ဒါမဲ့ တခါတလေ quest ကချခိုင်းတဲ့ boss တေက newbie တေအနေနဲ့ချရခက်တာတေ မနိူင်တာတေကြောင့် ကြန့်ကြာတာတွေဖြစ်လေ့ရှိပါတယ်  \n\n MQ ကိုဘလိုမြန်မြန်ပီးအောင် ဘလိုလုပ်ရမလဲ ဆိုတော့  \n\nပထမဦးစွာ Guild ဝင်ရပါမယ် မဝင်ချင်ရင် ကိုယ့် in game friend ထဲမာ lvlများတဲ့သူရှိရပါမယ်  \nပီးရင် friend list ထဲက  (or) guild ထဲက mercenary ခေါ်ရပါမယ် power 4000 အထက်ဆိုရင် ရပါတယ် \nquest လုပ်တဲ့အခါခေါ်ထားပါ quest ထဲမှာ boss ချရတော့မယ် ဆိုရင် boss battle ကို tutorial မာလုပ်တဲ့အတိုင်း exit လုပ်ပါ  လုပ်ပီးရင် boss ကို easy mode ပြောင်းပါ ပြောင်းပီးချပါ ခနလေးနဲ့ပီးပါတယ်   \n\nတချို့ boss တေကျတော့ easy ပြောင်းမရတာရှိပါတယ် \n\neasy mode နဲ့ပဲပေးတဲ့ boss တေလဲရှိပါတယ် \nchapter 5 က imitacia နဲ့ \nchapter 6 က mozto machina ပါ အ့နှစ်ကောင်က battle စစချင်းထဲက easy mode နဲ့ပေးပါတယ်   \n\nmercenary ကပါမနိုင်တော့ရင်တော့ guild ထဲက တယောက်ကိုအကူအညီတောင်းပီးလုပ်ပါ:3 mercenary ခေါ်နည်းကိုတော့နောက်တပိုင်းမှာဖော်ပြပါမယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

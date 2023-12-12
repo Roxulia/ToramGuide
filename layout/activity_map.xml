@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map">
+
+    <TextView
+        android:id="@+id/mapTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginRight="193dp"
+        android:layout_marginBottom="10dp"
+        android:text="Map"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtmap1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Map ဟာ အလွန် အသုံးဝင်တယ့် Featureတစ်ခုပါ \nMap ကို သုံးပြီး ကိုယ်သွားချင်တယ့် နေရာကို  ဘယ်က သွားရမလဲ လမ်းကြောင်း တွေကြည့်လို့ ရပါတယ် \nဒါဟာ MQလုပ်တယ့် နေရာမှာ သွား ရမယ့်နေရာတွေကို အလွတ်မရရင် ရှာဖို့ အတွက်  အရေးပါပါတယ်။"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgmap1"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/map2" />
+
+            <TextView
+                android:id="@+id/txtmap2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="ဒါ အပြင့် Mapဟာ နေရာ တစ်ခုမှာရှိတယ့် Monster  ရဲ့ Exp, Drops စတာတွေကိုပါ Checkပြီး  ကိုယ်လိုချင်တယ့် Drop/Itemsကျတယ့် Mobကို  ရွေးသတ်လို့ရပါတယ်"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgmap2"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/map1" />
+
+            <TextView
+                android:id="@+id/txtmap3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Menus -> Mapကိုနိပ်ပီးကြည့်လို့ရပါတယ်:>"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

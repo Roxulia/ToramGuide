@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".worldSystem">
+
+    <TextView
+        android:id="@+id/worldtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginBottom="10dp"
+        android:text="Worlds And Channels"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/worldtitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtWch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5sp"
+                android:text="Toramထဲမာက server တေအများကြီးခွဲထားပါတယ် server ကို server ဆိုပီးမပြဘဲ world လို့ပဲပြလေ့ရှိပါတယ် ပုံမှန် မြန်မာနိုင်ငံ မာ ဒေါင်းတဲ့ app မာဆိုရင် world လေးခုပါပါတယ် International 1,2,3 နဲ့ Eng world ဆိုပီးရှိပါတယ် \n\n  world ထဲမာမှ ကိုယ်ရောက်နေတဲ့နေရာကလူများတာနဲတာပေါ်မူတည်ပီး channel တေခွဲပါတယ်  channel ကိုတော့screan ရဲ့ဘယ်ဘက်ထောင့်မာကြည့်လို့ရပါတယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/wch1" />
+
+            <TextView
+                android:id="@+id/txtWch2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="world မတူတာဘဲဖြစ်ဖြစ် channel မတူတာပဲဖြစ်ဖြစ် အကြောင်းတခုခုကြောင့် ကိုယ်နဲ့ချိန်းထားတဲ့သူတေနဲ့မတွေ့တာတေဖြစ်တတ်ပါတယ် world or channel ဘလိုပြောင်းရလဲဆိုတော့ ပထမဆုံး menu ထဲကိုဝင်ပါ ပီးရငိ terminal ကိုဝင်လိုက်ရင် အောက်ပါပုံထွက်လာပါမယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/wch2" />
+
+            <TextView
+                android:id="@+id/txtWch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="အ့ထဲမှ switch channel ထဲကိုဝင်ပီးပြောင်းလို့ရပါပီ"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/wch3" />
+
+            <TextView
+                android:id="@+id/txtWch4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="အ့အနောက်မာပါတဲ့အတန်းလေးတေက လူများလားနည်းလားကိုပြတာပါ  \nပုံမှန်အားဖြင့် \nInt 1 က Lvling နဲ့ business အတွက်လူတေသပ်သပ်စုလေ့ရှိပါတယ် \nInt 2 ,3 နဲ့ Eng ကတော့ပုံမှန် friend တေနဲ့ ဆော့တာတေပဲများတော့ လူသိပ်မရှိပါဘူး \nnewbie တေစစထွက်ရင် Eng world ကပဲစပါတယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

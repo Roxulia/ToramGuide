@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mercenaries">
+
+    <TextView
+        android:id="@+id/merctitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="10dp"
+        android:text="Mercenaries"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/merctitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtmerc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="mercenary ဆိုတာ နောက်လိုက် bot တကောင်လိုမျိုးပဲသူကကိုယ်ချမှလိုက်ချတာ:3 spell တေလဲမသုံးပါဘူး ဒီတိုင်းလိုက်ချတာပါ \n mercenary နှစ်မျိုးရှိပါတယ် attacker နဲ့ defender ဆိုပီးရှိပါတယ်  \n\n 1. attacker ကတော့ DMG output များပါတယ် မူလ character ရဲ့ atk power ၂ ဆ ရှိပါတယ် def တေhp တေကျန်တာတေကတော့ပုံမှန်အတိုင်းပါပဲ\n\n2. defender ကတော့ ခံနိုင်ရည်များတဲ့အကောင်ပါ မူလ character ရဲ့ HP ၂ဆရှိပါတယ် def လဲ lvl အလိုက်တိုးပေးပါတယ်  aggro 100 per hit ထွက်ပါတယ်   \n\nသူများရဲ့ mercenary ကိုခေါ်လို့ရသလို ကိုယ့်ထဲက character တခုကိုလဲ mercenary အနေနဲ့ register လုပ်လို့ရပါတယ်   mercenary \nခေါ်မယ်ဆိုရင်တော့ menu ထဲကနေ community ထဲကိုဝင်ရမာပါ"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/merc1" />
+
+            <TextView
+                android:id="@+id/txtmerc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="community ထဲက ဒီသုံးခူလုံးကနေ ခေါ်လို့ရပါတယ် အပေါ်တခုကကိုယ်နဲ့ lvlတူပဲထွက်တာပါ Spina လဲပေးရပါတယ် register လုပ်ရင်လဲ Party ထဲကနေလုပ်ရတာပါ"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/merc2" />
+
+            <TextView
+                android:id="@+id/txtmerc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="ပထမတခုက register  လုပ်တာပါ:3 ခေါ်ရင်တော့ ဒုတိယတခုမာခေါ်ရမာပါ"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/merc3" />
+
+            <TextView
+                android:id="@+id/txtmerc4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:text="Friend ထဲမာဆိုရင်တော့ ကိုယ့်ထဲက friend တေထဲက mercenaries တေထဲကကြိုက်တာခေါ်လို့ရပါတယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/merc4" />
+
+            <TextView
+                android:id="@+id/txtmerc5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Guild ထဲကနေခေါ်ရင်လဲ အပေါ်ကလိုပါပဲ:3"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/merc5" />
+
+            <TextView
+                android:id="@+id/txtmerc6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="mercenariesဆိုတဲ့ထဲဝင်လိုက်ရင် ဒါမျိုးတေထွက်လာမာပါ ပုံကတော့နမူနာပါ အ့ထဲကနေကြိုက်တဲ့ နာမည်ကိုနိပ်ပီးခေါ်လို့ရပါပီ"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

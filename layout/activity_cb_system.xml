@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cbSystem">
+
+    <TextView
+        android:id="@+id/cbtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="59dp"
+        android:layout_marginBottom="10dp"
+        android:text="Consignment Board Guide"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbtitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtCb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="8sp"
+                android:text="consignment board ဆိုတာက toramထဲကplayerတေအချင်းချင်းitem တေရောင်းကြဝယ်ကြတဲ့နေရာပေါ့ အွန်လိုင်းရှော့ပင်းပုံစံပေါ့ဝယ်တဲ့သူက Spina ပေးလိုက်တာနဲ့ item ချက်ချင်းရောက်တာမျိုး ရောင်းတဲ့သူစီကို Spina ‎ရောက်တာမျိုးပေါ့  bank မာသွားထုတ်တလိုမျိုး consignment board မာ Spina ပြန်ထုတ်ရတာပေါ့"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+
+            <ImageView
+                android:id="@+id/imgCb1"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cb1" />
+
+            <TextView
+                android:id="@+id/txtCb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="8sp"
+                android:text="ဒါကတော့ဝင်ဝင်ချင်းမာတွေ့ရတဲ့ပုံပါ \n 1 ကတော့ ကိုယ်ရောင်းချင်တဲ့ itemကို ရောင်းလို့ရတဲ့နေရာပါ ပထမဆုံး ရောင်းမဲ့ item ကိုရွေးပီးရင် ရောင်းစျေးသတ်မှတ်ရပါတယ် consignment board ကအခွန် 10% ကောက်ပါတယ် ရောင်းလို့ရတဲ့spina ကိုလဲ ဒီမာပဲပြန်ထုတ်ရတာပါ \n2. ဒါကတော့ ဝယ်မဲ့သူတေအတွက်ပါ consignment board မာတင်ထားတဲ့ item တေအကုန်လုံးကို ကြည့်လို့ရပါတယ် ရှာပီးလဲဝယ်လို့ရပါတယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgCb2"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cb2" />
+
+            <TextView
+                android:id="@+id/txtCb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="8sp"
+                android:text="ဒီပုံကတော့ ဝယ်မဲ့သူအတွက် item တေရှာလို့ရတဲ့နေရာပါ \n\n 1 . ကတော့ category ပါ အမျိုးအစား အလိုက်ရှာတာပါ အ့ မာတခုရွေးပီး search ကိုနိပ်ရင် ရွေးထားတဲ့အမျိုးအစားနဲ့ပတ်သက်ပီးထွက်လာမာပါ \n2. sort by register time ပါတင်ထားတဲ့အချိန်နဲ့စီထားတာပါ \n3. sort by price စျေးနည်းတာကနေစီထားတာပါ ကိုယ်ရောင်းမဲ့ item ရဲ့စျေးကိုလဲကြည့်လို့ရပါတယ် \n4.item name ထည့်ပီးရှာတာပါ (everyone knows)\n 5.ရှာတာပေါ့:3ရှာတဲ့နေရာမာ သုံးမျိုးရှိတယ် ရိုးရိုး default ဟာရယ် all user ရယ် guild only ရယ်ပါ"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgCb3"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/cb3" />
+
+            <TextView
+                android:id="@+id/txtCb4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="8sp"
+                android:text="ဒါကတော့အောက်ကို scroll လုပ်လိုက်တာပါ ဒီမာက filter တေပါပါတယ် equipment မာ slot ပါတာရှာချင်တာလား dye ပါတာရှာချင်တာလား ကိုယ်အပေါ်က search barမာရေးခဲ့တဲ့ နာမည်နဲ့ ဆိုင်တဲ့ item အစစ်ကိုလား ဒါမှမဟုတ် appearance ကိုပဲရှာချင်တာလား သတ်မှတ်လို့ရပါတယ်"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

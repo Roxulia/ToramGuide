@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gems">
+
+    <TextView
+        android:id="@+id/gemtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginRight="174dp"
+        android:layout_marginBottom="10dp"
+        android:text="Holy Gems"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gemtitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtGem1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Holy Gemတွေ က လူသုံးနဲ ပါတယ်  Boss Battles တွေ မှာ Support လုပ်ပေးတယ့်  Gem တွေ ဖြစ်ပြီး Statအချို့ကို Gemအလိုက် Enchanted လုပ်ပေးတာပါ တစ်နည်းပြောရရင် Character တွေကို ပို Strongအောင် လုပ်ပေးတာပါ  \n\nဥပမာ AGILE Gemသုံးမယ် ဆိုရင် AGI Statဟာ ပိုတက်စေ မှာပါ။ ဒီ Effectဟာ တစ်ယောက်သုံးတာနဲ့ Party Memberတွေ အကုန်လုံးကို ထိရောက်စေပါတယ် အရမ်း OPဖြစ်တယ့် Effectမဟုတ်တယ့်အတွက်  လူသုံးနဲပါတယ် မသုံးလဲ သိပ်မကွာပါဘူး ပြောရမှာပါ \nထို Gemတွေနဲ့ တူတယ့် Drop Rateမြင့် Gemတွေလည်း ရှိပါတယ် ဒါပေမယ့် သူတို့က Supportပေးတာမဟုတ်ဘဲ Bossကို Enchant ပေးပါတယ်   \n\n\nHoly Gemတွေကို Resistle Merchant တွေနဲ့  General Storesအချို့မှာ ဝယ်လို့ရပါတယ်  \n\nဒါကတော့resistle merchant တေရဲ့ shop item တေပါ"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgGem1"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gem2" />
+
+            <TextView
+                android:id="@+id/txtGem2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="ဒါကတော့general store မှာရှိတဲ့ တချို့ gem တေပါ"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgGem2"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:saveEnabled="false"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gem3" />
+
+            <TextView
+                android:id="@+id/txtgem3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:lineSpacingExtra="5sp"
+                android:text="Resistle Merchant တွေဟာ Sofyaနဲ့ Figo's Manor တွေ မှာ ရှိပြီး  Gem ဝယ်လို့ရပါတယ်"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgGem3"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:padding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gem1" />
+
+            <TextView
+                android:id="@+id/txtgem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1sp"
+                android:layout_marginLeft="1sp"
+                android:layout_marginTop="1sp"
+                android:layout_marginRight="1sp"
+                android:layout_marginBottom="1sp"
+                android:text="ဒါကတော့sofya မာရှိတဲ့ resistle merchant ပါ:3"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
