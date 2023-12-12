@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ths1" />
+
+            <TextView
+                android:id="@+id/txtOvThs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="5sp"
+                android:text="Ths (Two Handed Sword) က Sword Class ကနေခွဲထွက်လာတဲ့ Damage output များတဲ့ Class တစ်ခုပါပဲ။ Combo skill spam ကောင်းတဲ့ Class တစ်ခုဖြစ်ပြီးတော့ Damage ကလဲ Play Style တစ်ခုချင်းစီအလိုက် output လုပ်နိုင်တဲ့အနေထားချင်းလဲကွာပါတယ်။ Aggro generate လဲကောင်းတဲ့အပြင် တခြားသော Class တွေထက်လဲ ပိုအမာခံနိုင်တာကြောင့် Tank မပါတဲ့ Party တွေမှာ Semi Tank အနေနဲ့လဲ Team ကလူတွေကို ကာပေးလို့ရပါသေးတယ်။ ဒါ့အပြင် Mercenary အသုံး၀င်မှုမှာလဲ Ths Class တွေက လူခေါ်များတဲ့ Most Useful class တစ်ခုဖြစ်နေတဲ့အတွက် Ths player တွေအချင်းချင်း ဘယ်သူက Mercenary Power ပိုများလဲပြိုင်ကြတာက အစဉ်လာတစ်ခုလိုပါပဲ။"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_margin="2sp"/>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ths2" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
